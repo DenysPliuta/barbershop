@@ -1,5 +1,6 @@
 :root {
     --main-color-bg: #ffffff;
+    --main-text-color: #ffffff;
 }
 
 
@@ -25,6 +26,13 @@ img {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+    
+}
+
+
+
 .container {
     width: 1170px;
     margin-left: auto;
@@ -43,4 +51,67 @@ img {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+
+/*--------------HEADER---------*/
+
+.nav-container {
+    display: flex;
+    background: #000;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 131px;
+    
+    gap: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16/12);
+    letter-spacing: 0.1em;
+    
+
+}
+
+.link-nav {
+    color: var(--main-text-color);
+}
+
+.nav-contact {
+    display: flex;
+    align-items: center;
+    margin-left: 254px;
+    gap: 43px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16/12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+}
+
+.header-tel {
+    color: var(--main-text-color);
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16/12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #FF6C00;
+    background-color: transparent;
+    
+    color: var(--main-text-color);
 }
