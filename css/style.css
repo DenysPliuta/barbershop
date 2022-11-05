@@ -1,0 +1,46 @@
+:root {
+    --main-color-bg: #ffffff;
+}
+
+
+
+body {
+   font-family: "Open Sans" sans-serif; 
+   font-style: normal;
+   font-size: 18px;
+   background-color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0px;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid 1px orange;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
